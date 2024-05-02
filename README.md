@@ -1,12 +1,34 @@
-# Getting Started with Create React App
+# Tasty Trails- Swiggy Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a clone of the popular food delivery app, Swiggy. It aims to replicate some of the core functionalities and user interface elements of Swiggy using modern web technologies.
 
-## Available Scripts
+### Tech Stack
 
-In the project directory, you can run:
+- **React:** The project is built using the `create-react-app` boilerplate, allowing for efficient development and organization of components.
+- **CSS:** Tailwind CSS is utilized for styling, providing a utility-first approach to styling components and layouts.
+- **Routing:** React Router DOM is used for client-side routing, enabling navigation between different pages of the application without full page reloads.
+- **State Management:** Redux Toolkit is employed for state management, offering a convenient way to manage application state and handle complex data flows.
 
-### `npm start`
+### UI Features
+
+- **Home Page:** Displays restaurant cards showcasing various eateries. Clicking on a card navigates the user to the respective restaurant's menu page.
+- **Dark/Light Theme:** Utilizes context API to implement a dark and light mode toggle feature, enhancing user experience based on their preference.
+- **Search Bar:** Implements debouncing in the search bar to improve performance, allowing users to efficiently search for restaurants.
+- **Top Rated Restaurants:** Displays a button that, when clicked, shows all restaurants with a rating above 4.5 stars, aiding users in finding highly-rated establishments.
+- **Offer Dropdown:** Shows available offers in a dropdown menu when the user clicks on the offer section, enhancing visibility of discounts and promotions.
+- **Cart Page:** Navigates users to the cart page where they can view and manage items added to their cart.Powered by Redux Toolkit, it provides a seamless and efficient way to review and finalize your selections, bringing your culinary desires to fruition.
+- **User Page:** Displays user information such as profile picture, name, and location, providing a personalized experience.
+- **Error Page:** Utilizes `useErrorRouter` to handle incorrect URLs gracefully, redirecting users to an error page for a seamless browsing experience.
+
+
+
+### Getting Started
+
+To get started with the project, follow these steps:
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the development server using `npm start`.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +36,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
